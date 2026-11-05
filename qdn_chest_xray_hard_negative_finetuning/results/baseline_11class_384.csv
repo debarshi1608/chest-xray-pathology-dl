@@ -1,0 +1,14 @@
+module,val_auprc,test_auroc,test_auprc,val_threshold
+gate (abnormality),0.7026,0.7322,0.7846,0.53
+Atelectasis,0.3682,0.7762,0.3566,0.22
+Cardiomegaly,0.2187,0.8804,0.3302,0.26
+Consolidation,0.1382,0.7421,0.1621,0.18
+Edema,0.1581,0.8462,0.1680,0.23
+Effusion,0.5406,0.8297,0.5212,0.29
+Emphysema,0.2855,0.9220,0.4506,0.31
+Infiltration,0.3250,0.6907,0.3902,0.32
+Mass,0.3027,0.8221,0.3195,0.31
+Nodule,0.2668,0.7804,0.2572,0.30
+Pleural_Thickening,0.0946,0.7622,0.1246,0.13
+Pneumothorax,0.2132,0.8641,0.4161,0.17
+11-class mean,0.2647,0.8106,0.3179,

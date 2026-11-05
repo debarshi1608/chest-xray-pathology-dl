@@ -1,0 +1,12 @@
+class,total_soft_fp,fp_on_normal_lungs,pct_normal,fp_on_other_pathologies,pct_other,specificity_on_normal_lungs_pct
+Consolidation,2046,529,25.9,1517,74.1,94.6
+Edema,1497,475,31.7,1022,68.3,95.2
+Pleural_Thickening,1625,544,33.5,1081,66.5,94.5
+Nodule,1793,635,35.4,1158,64.6,93.6
+Mass,1311,493,37.6,818,62.4,95.0
+Atelectasis,4385,1705,38.9,2680,61.1,82.7
+Effusion,4116,1604,39.0,2512,61.0,83.7
+Emphysema,730,298,40.8,432,59.2,97.0
+Pneumothorax,2118,953,45.0,1165,55.0,90.3
+Infiltration,8897,4431,49.8,4466,50.2,55.0
+Cardiomegaly,616,328,53.2,288,46.8,96.7

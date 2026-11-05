@@ -1,0 +1,4 @@
+class,pa_auroc,pa_auprc,ap_auroc,ap_auprc
+Cardiomegaly,0.9338,0.4234,0.8310,0.2586
+Effusion,0.8642,0.5620,0.8015,0.4934
+Pneumothorax,0.8623,0.4614,0.8526,0.3384

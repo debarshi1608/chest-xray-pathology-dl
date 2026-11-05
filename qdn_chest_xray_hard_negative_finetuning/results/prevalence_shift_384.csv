@@ -1,0 +1,13 @@
+class,val_prevalence_pct,test_prevalence_pct,shift_ratio
+Atelectasis,9.58,12.81,1.34
+Cardiomegaly,1.96,4.17,2.13
+Consolidation,3.37,7.07,2.10
+Edema,1.32,3.61,2.73
+Effusion,10.75,18.21,1.69
+Emphysema,1.59,4.27,2.69
+Infiltration,16.27,23.88,1.47
+Mass,4.63,6.84,1.48
+Nodule,5.88,6.35,1.08
+Pleural_Thickening,2.68,4.46,1.66
+Pneumothorax,2.89,10.40,3.60
+mean,5.54,9.28,1.68
