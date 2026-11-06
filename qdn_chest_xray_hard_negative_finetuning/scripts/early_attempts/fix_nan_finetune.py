@@ -1,6 +1,4 @@
-# fix_nan_finetune.py
-# Early debugging attempt, copied from the first chat (LEGENDARY_DL.pdf). Kept for the record.
-# Lines that the PDF cut off at the page edge are marked [clipped].
+
 import re
 with open("finetune_qdn.py", "r") as f:
     code = f.read()
