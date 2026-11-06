@@ -1,8 +1,6 @@
-# Source: output_boxes PDF, section 7.2 "Script 5" (the corrected here-document version, run with: python3 - << 'EOF' ... EOF)
-# Reconstructed from the chat export (output_boxes PDF). Lines cut off at the page edge were completed from the other copies of the same snippet
-# and from the printed tables; those lines are marked "# [restored]". Check against your shell history (history | grep python3) before relying on it.
+
 # Natural-prevalence F1, Youden sensitivity/specificity, and validation-locked 1:1 case-control F1
-# (vs all negatives, and vs healthy scans only). The 1:1 F1 is NOT comparable to the natural-prevalence F1: report both and label them.
+# (vs all negatives, and vs healthy scans only). The 1:1 F1 is NOT comparable to the natural-prevalence F1: reported both and labeled them.
 import os, glob, csv, numpy as np
 from sklearn.metrics import roc_auc_score, precision_recall_curve, roc_curve
 
