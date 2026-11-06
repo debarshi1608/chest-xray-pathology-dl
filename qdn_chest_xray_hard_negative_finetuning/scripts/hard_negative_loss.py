@@ -1,5 +1,4 @@
-# Source: Legendary_DL_report.pdf, section 8.3 (HardNegativeSuppressionLoss from finetune_qdn.py).
-# Only this class is complete in the PDF; the rest of finetune_qdn.py is cut off there (see README).
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
