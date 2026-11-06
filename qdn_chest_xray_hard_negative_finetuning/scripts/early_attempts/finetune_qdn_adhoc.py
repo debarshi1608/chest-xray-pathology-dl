@@ -1,6 +1,4 @@
-# finetune_qdn.py (last ad-hoc version; replaced later by the native QueryDiscussNet script)
-# Early debugging attempt, copied from the first chat (LEGENDARY_DL.pdf). Kept for the record.
-# Lines that the PDF cut off at the page edge are marked [clipped].
+
 import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader
