@@ -1,5 +1,4 @@
-# Source: Legendary_DL_report.pdf, section 8.2
-# Lists the highest-confidence false positives per focus class with view position and co-existing labels.
+
 import os
 import numpy as np
 import pandas as pd
