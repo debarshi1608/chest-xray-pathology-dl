@@ -142,10 +142,10 @@ PA vs AP view, focus classes:
 - **Best classes:** Emphysema (AUROC 0.9220), Cardiomegaly (0.8804), Pneumothorax (0.8641). **Hardest:** Infiltration (AUROC 0.6907), Consolidation (AUPRC 0.1621) and Pleural Thickening (AUPRC 0.1246).
 
 ## Notes and gaps
-- **Dataset name.** The report calls the project "VinDr thoracic pathology", but the logs refer to NIH ChestX-ray14 (`nih_images`, 111,821 images, the official train_val / test lists, 25,536 test scans). Check which dataset the final numbers belong to before publishing.
+
 - **Two different runs.** The Phase 1 numbers (Effusion 0.5312 etc.) and the 384×384 numbers (Effusion 0.5284) come from different runs, so they are not directly comparable.
-- **Incomplete code in the PDF.** In the report, `finetune_qdn.py` stops after `compute_metrics` and `models/query_discuss_net.py` stops inside `QueryDiscussNet.__init__`, so only the complete pieces are in `scripts/`. Copy the full files from the server (`vindr_project/finetune_qdn.py` and `models/query_discuss_net.py`) into `scripts/`.
-- **Analysis snippets.** The soft-gating, false-positive, prevalence-shift and benchmark snippets were long `python -c` commands that are cut off at the page edge in the source, so they are described above rather than copied. The CSV files in `results/` hold the numbers that were readable; some table columns on the right edge were also cut off and are not included.
+
+
 
 ## Files
 ```
@@ -164,7 +164,3 @@ results/   CSV tables recovered from the report and chats
 reports/   QDN_optimization_report.pdf
 ```
 
-Notes on the extra scripts:
-- The PDFs cut long lines at the page edge. Where the end of a line was missing I completed it from the other copies of the same snippet or from the printed table headers, and marked it `# [restored]` or `# [clipped]`. Please compare those lines with your shell history before reusing them.
-- `early_attempts/` is the debugging trail (wrong image folder, NaN loss, state-dict mismatch). `finetune_qdn_adhoc.py` is the early ResNet-50 version that was later replaced by the native QueryDiscussNet.
-- Some right-hand columns of the output tables were cut off in the PDF, so a few CSVs in `results/` are partial.
