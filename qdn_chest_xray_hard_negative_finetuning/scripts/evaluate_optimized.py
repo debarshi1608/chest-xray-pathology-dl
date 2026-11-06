@@ -1,5 +1,4 @@
-# Source: Legendary_DL_report.pdf, section 8.1
-# Stage-1 abnormality gate + validation-tuned thresholds; evaluates F1 / AUPRC / AUROC on the held-out test split.
+
 import os
 import numpy as np
 from sklearn.metrics import f1_score, average_precision_score, roc_auc_score
