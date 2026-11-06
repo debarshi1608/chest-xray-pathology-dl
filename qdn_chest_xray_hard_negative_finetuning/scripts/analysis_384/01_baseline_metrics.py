@@ -1,7 +1,4 @@
-# Source: output_boxes PDF, section 3.1 "Script 1: Baseline Raw Metrics Across All Modules"
-# Reconstructed from the chat export (output_boxes PDF). Lines cut off at the page edge were completed from the other copies of the same snippet
-# and from the printed tables; those lines are marked "# [restored]". Check against your shell history (history | grep python3) before relying on it.
-# Run from the repo root: python3 01_baseline_metrics.py
+
 import os, glob, numpy as np
 from sklearn.metrics import roc_auc_score, average_precision_score, precision_recall_curve
 
