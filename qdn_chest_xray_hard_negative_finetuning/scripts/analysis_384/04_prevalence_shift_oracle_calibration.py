@@ -1,6 +1,4 @@
-# Source: output_boxes PDF, section 6.1 "Script 4: Val vs. Test Prevalence Shift & Oracle Test F1 Ceiling"
-# Reconstructed from the chat export (output_boxes PDF). Lines cut off at the page edge were completed from the other copies of the same snippet
-# and from the printed tables; those lines are marked "# [restored]". Check against your shell history (history | grep python3) before relying on it.
+
 import os, glob, numpy as np
 from sklearn.metrics import precision_recall_curve
 from sklearn.linear_model import LogisticRegression
