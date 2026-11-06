@@ -1,6 +1,4 @@
-# Source: output_boxes PDF, section 4.2 "Script 2: Leak-Free Soft-Gating Optimization & Export"
-# Reconstructed from the chat export (output_boxes PDF). Lines cut off at the page edge were completed from the other copies of the same snippet
-# and from the printed tables; those lines are marked "# [restored]". Check against your shell history (history | grep python3) before relying on it.
+
 # Writes outputs/final/qdn_384/full_11class_metrics.json and .csv
 import os, glob, json, csv, numpy as np
 from sklearn.metrics import roc_auc_score, average_precision_score, precision_recall_curve
