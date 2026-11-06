@@ -1,6 +1,4 @@
-# update_img_dir.py (second version)
-# Early debugging attempt, copied from the first chat (LEGENDARY_DL.pdf). Kept for the record.
-# Lines that the PDF cut off at the page edge are marked [clipped].
+
 import os
 import pandas as pd
 def find_correct_path():
