@@ -1,6 +1,4 @@
-# dataset_fixed.py
-# Early debugging attempt, copied from the first chat (LEGENDARY_DL.pdf). Kept for the record.
-# Lines that the PDF cut off at the page edge are marked [clipped].
+
 import numpy as np
 import pandas as pd
 from PIL import Image
@@ -28,12 +26,11 @@ class VinDrDataset(Dataset):
         row = self.df.iloc[idx]
         img_name = str(row[self.img_col])
         
-        # Robust path resolution across possible directory structures
+        
         img_path = os.path.join(self.img_dir, img_name)
         if not os.path.exists(img_path):
-            # Check alternative common paths
-            for candidate in [img_name, os.path.join("images", img_name), os.path.join("../images", img_name), img_name]:  # [clipped] last candidate path restored
-                if os.path.exists(candidate):
+          
+            for candidate in [img_name, os.path.join("images", img_name), os.path.join("../images", img_name), img_name]:  
                     img_path = candidate
                     break
             
