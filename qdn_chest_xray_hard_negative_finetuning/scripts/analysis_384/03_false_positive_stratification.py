@@ -1,6 +1,4 @@
-# Source: output_boxes PDF, section 5.1 "Script 3: False Positive Stratification (Normal Lungs vs. Other Pathologies)"
-# Reconstructed from the chat export (output_boxes PDF). Lines cut off at the page edge were completed from the other copies of the same snippet
-# and from the printed tables; those lines are marked "# [restored]". Check against your shell history (history | grep python3) before relying on it.
+
 # Needs full_11class_metrics.json from 02_soft_gating_export.py
 import json, numpy as np
 
